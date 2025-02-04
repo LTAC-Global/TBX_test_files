@@ -1,5 +1,5 @@
 # These are test files 
-These files are intended to show how to validate TBX files from different dialects. At each level, there is a file that is valid and a file that should be rejected by that dialect's schema. The demonstrated dialects are TBX-Core, TBX-Min, and TBX-Basic, which are detailed [on the TBX website](https://www.tbxinfo.net/tbx-modules/).
+These files are intended to show how to validate TBX files from different dialects. At each level, there is a file that is valid and a file that should be rejected by that dialect's schema. The demonstrated dialects are TBX-Min and TBX-Basic, which are detailed [on the TBX website](https://www.tbxinfo.net/tbx-modules/). There are also files specifically for validation against the TBX core structure, as well as one for general XML well-formedness.
 
 To validate any TBX file, you will need to have either core_schema.rng or core_schema.xsd downloaded. This ReadMe uses core_schema.rng, but either should work fine. Both of these files, as well as min_schema.sch and basic_schema.sch, will soon be posted in a location that will be referenced here.
 
